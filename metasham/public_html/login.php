@@ -3,7 +3,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Home</title>
+    <title>Log In</title>
 
     <!-- This says our CSS is compatible with phones, and phones
          don't need to scale it strangely. -->
@@ -33,56 +33,39 @@
   <body>
 
     <!-- Navigation Bar -->
-   <?php include 'navigation.php'; ?>
-
-    <div class="jumbotron text-center">
-        <h1>Welcome To MetaSham!</h1>
-        <img src = "img/metasham_og.png"
-                alt = "MetaSham"
-                height = "150"
-                width = "100">
-        <p>Most up-to-date products around!</p> 
-    </div>
+ <?php include '../resources/navigation.php'; ?>
 
     <!-- Main content -->
     <div class="container">
       <!-- This container moves below the menu bar -->
-      <div class="below_menu_container">
-        <div class="row">
-          <div class="col-sm-4">
-            <h2><u>Shampoo</u></h2>
-            <ul>
-              <li>Clean Hair</li>
-              <li>91% effective</li>
-              <li>Kinda Safe for the Environment</li>
-            </ul>
-          </div>
-          <div class="col-sm-4">
-            <h2><u>Salad Dressing</u></h2>
-            <ul>
-              <li>Salads + Showers + ??? = Profit</li>
-              <li>Safe Up to Two Servings</li>
-              <li>Multiple Flavors (Now Featuring Bleach/Gluten Free Products)</li>
-            </ul>
-          </div>
-          <div class="col-sm-4">
-            <h2><u>Effectiveness</u></h2>
-            <ul>
-              <li>Clean and Healthy Hair</li>
-              <li>Healthy additive to a salad</li>
-              <li>Helps lower cholesterol</li>
-            </ul>
-          </div>
+      <h2>Log In</h2>
+      <form action="/form-group" method="post">
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" class="form-control" id="email" placeholder="Enter email" name="email" minlength="6" maxlength="50">
         </div>
-      </div>
+        <div class="form-group">
+          <label for="pwd">Password</label>
+          <input type="password" class="form-control" id="pwd" placeolder="Enter password" name="pwd" minlength="6" maxlength="50">
+        </div>
+        <div class="checkbox">
+          <label><input type="checkbox" name="remember"> Remember Me</label>
+        </div>
+
+          <button type="login" class="btn btn-default">Log In</button>
+  
+        <div class="form-group">
+          <span class="psw"><a href="forgot.html">Forgot password?</a></span>
+          <br>
+        </div>
+        
+        <div class="alert alert-success">
+          <strong>Success!</strong> Log in correct!</a>.
+        </div>
+      </form>
     </div>
 
-    <footer class="footer">
-      <div class="container">
-        <span>&copy; MetaSham! Brought to you by Brandon and Keegan Labs</span>
-      </div>
-    </footer>
-
+        <?php include '../resources/footer.php'; ?>ooter>
     <!-- Scripts required to make Bootstrap work better. -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>

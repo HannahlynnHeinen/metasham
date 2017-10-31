@@ -3,7 +3,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Home</title>
+    <title>Deals</title>
 
     <!-- This says our CSS is compatible with phones, and phones
          don't need to scale it strangely. -->
@@ -33,55 +33,63 @@
   <body>
 
     <!-- Navigation Bar -->
-   <?php include 'navigation.php'; ?>
+     <?php include '../resources/navigation.php'; ?>
 
     <div class="jumbotron text-center">
-        <h1>Welcome To MetaSham!</h1>
-        <img src = "img/metasham_og.png"
-                alt = "MetaSham"
-                height = "150"
-                width = "100">
-        <p>Most up-to-date products around!</p> 
+        <h1>DEALS DEALS DEALS</h1>
+        <p>Amazing deals everyday!</p> 
     </div>
-
+    
     <!-- Main content -->
     <div class="container">
       <!-- This container moves below the menu bar -->
       <div class="below_menu_container">
-        <div class="row">
-          <div class="col-sm-4">
-            <h2><u>Shampoo</u></h2>
-            <ul>
-              <li>Clean Hair</li>
-              <li>91% effective</li>
-              <li>Kinda Safe for the Environment</li>
-            </ul>
-          </div>
-          <div class="col-sm-4">
-            <h2><u>Salad Dressing</u></h2>
-            <ul>
-              <li>Salads + Showers + ??? = Profit</li>
-              <li>Safe Up to Two Servings</li>
-              <li>Multiple Flavors (Now Featuring Bleach/Gluten Free Products)</li>
-            </ul>
-          </div>
-          <div class="col-sm-4">
-            <h2><u>Effectiveness</u></h2>
-            <ul>
-              <li>Clean and Healthy Hair</li>
-              <li>Healthy additive to a salad</li>
-              <li>Helps lower cholesterol</li>
-            </ul>
-          </div>
-        </div>
+        <table class="table table-striped">
+            <tr>
+                <th>Product</th>
+                <th>Deal</th> 
+                <th>Code</th>
+            </tr>
+            <tr>
+                <td>MetaSham! The OG</td>
+                <td>10% off</td> 
+                <td>IJOFEW8E8F0099E899ER80W9E09ERT0J</td>
+            </tr>
+            <tr>
+                <td>MetaSham! Roasted Red Pepper</td>
+                <td>20% off</td> 
+                <td>8348349488KFKOFOFIR</td>
+            </tr>
+            <tr>
+                <td>MetaSham! Vegan</td>
+                <td>50% Added</td>
+                <td>WHY?</td>
+            </tr>
+            <tr>
+                <td>MetaSham! Manliness</td>
+                <td>Buy 1 Get 1 Free</td>
+                <td>MAN!</td>
+            </tr>
+            <tr>
+                <td>MetaSham! Lovely Lady</td>
+                <td>Get 100 bottles free with $500 Purchase</td>
+                <td>SKRRRTTTTT</td>
+            </tr>
+            <tr>
+                <td>MetaSham! Sea Salt &amp; Vinegar</td>
+                <td>Free Long John Silver's Gift Card</td>
+                <td>No Code</td>
+            </tr>
+            <tr>
+                <td>MetaSham! Lovely Lady</td>
+                <td>Free loofah with order over $50</td>
+                <td>5CRU8ADU8DU8</td>
+            </tr>
+        </table>
       </div>
     </div>
 
-    <footer class="footer">
-      <div class="container">
-        <span>&copy; MetaSham! Brought to you by Brandon and Keegan Labs</span>
-      </div>
-    </footer>
+        <?php include '../resources/footer.php'; ?>
 
     <!-- Scripts required to make Bootstrap work better. -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>

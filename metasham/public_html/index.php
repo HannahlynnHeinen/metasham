@@ -33,7 +33,7 @@
   <body>
 
     <!-- Navigation Bar -->
-   <?php include 'navigation.php'; ?>
+   <?php include '../resources/navigation.php'; ?>
 
     <div class="jumbotron text-center">
         <h1>Welcome To MetaSham!</h1>
@@ -77,11 +77,7 @@
       </div>
     </div>
 
-    <footer class="footer">
-      <div class="container">
-        <span>&copy; MetaSham! Brought to you by Brandon and Keegan Labs</span>
-      </div>
-    </footer>
+        <?php include '../resources/footer.php'; ?>
 
     <!-- Scripts required to make Bootstrap work better. -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>

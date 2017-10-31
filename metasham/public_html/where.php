@@ -3,7 +3,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Home</title>
+    <title>Locations</title>
 
     <!-- This says our CSS is compatible with phones, and phones
          don't need to scale it strangely. -->
@@ -33,55 +33,46 @@
   <body>
 
     <!-- Navigation Bar -->
-   <?php include 'navigation.php'; ?>
+    <?php include '../resources/navigation.php'; ?>
 
     <div class="jumbotron text-center">
-        <h1>Welcome To MetaSham!</h1>
-        <img src = "img/metasham_og.png"
-                alt = "MetaSham"
-                height = "150"
-                width = "100">
-        <p>Most up-to-date products around!</p> 
+        <h1>Store Locations</h1>
+        <p>More to Come!</p> 
     </div>
 
     <!-- Main content -->
     <div class="container">
       <!-- This container moves below the menu bar -->
       <div class="below_menu_container">
-        <div class="row">
-          <div class="col-sm-4">
-            <h2><u>Shampoo</u></h2>
-            <ul>
-              <li>Clean Hair</li>
-              <li>91% effective</li>
-              <li>Kinda Safe for the Environment</li>
-            </ul>
+        <div class="col-sm-6">
+          <h2>Metasham Locations</h2>
+          <div>
+            <p>Walmart</p>
+            <img alt='Walmart Image' src="img/walmart.jpg" height="200" width="300"/>
           </div>
-          <div class="col-sm-4">
-            <h2><u>Salad Dressing</u></h2>
-            <ul>
-              <li>Salads + Showers + ??? = Profit</li>
-              <li>Safe Up to Two Servings</li>
-              <li>Multiple Flavors (Now Featuring Bleach/Gluten Free Products)</li>
-            </ul>
+          <div>
+            <p>Burger King</p>
+            <img alt='Burger King Image' src="img/burgerking.jpg" height="200" width="300"/>
           </div>
-          <div class="col-sm-4">
-            <h2><u>Effectiveness</u></h2>
-            <ul>
-              <li>Clean and Healthy Hair</li>
-              <li>Healthy additive to a salad</li>
-              <li>Helps lower cholesterol</li>
-            </ul>
+          <div>
+            <p>Subway</p>
+            <img alt='Subway Image' src="img/subway.jpg" height="200" width="300"/>
           </div>
+          <div>
+            <p>The Container Store, Aldi, Amazon, and more locations coming soon!</p>
+          </div>
+          <div>
+            <p>Not at Target or McDonalds</p>
+          </div>
+        </div>
+        <div class="col-sm-6">
+          <h2>Future Locations</h2>
+            <p>Reminder that we have no owned locations and we are strictly distributed to other franchises.  Our company will be beginning to build our own MetaSham stores starting in the spring of 2020.  Once stores are built we will be able to do online sales, franchise sales, and self-owned store sales.</p>
         </div>
       </div>
     </div>
 
-    <footer class="footer">
-      <div class="container">
-        <span>&copy; MetaSham! Brought to you by Brandon and Keegan Labs</span>
-      </div>
-    </footer>
+        <?php include '../resources/footer.php'; ?>
 
     <!-- Scripts required to make Bootstrap work better. -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
