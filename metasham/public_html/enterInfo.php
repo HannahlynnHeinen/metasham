@@ -55,12 +55,12 @@
         </div>
         <div class="form-group">
           <label for="pwd">Password</label>
-          <input type="password" class="form-control" id="pwd" placeolder="Enter password" name="pwd" minlength="6" maxlength="50">
+          <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pwd" minlength="6" maxlength="50">
         </div>
         <div class="checkbox">
           <label><input type="checkbox" name="remember"> Remember Me</label>
         </div>
-        <button type="create" class="btn btn-default">Create</button>
+        <button type="button" class="btn btn-default">Create</button>
       </form>
     </div> 
 

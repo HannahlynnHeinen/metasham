@@ -46,13 +46,13 @@
         </div>
         <div class="form-group">
           <label for="pwd">Password</label>
-          <input type="password" class="form-control" id="pwd" placeolder="Enter password" name="pwd" minlength="6" maxlength="50">
+          <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pwd" minlength="6" maxlength="50">
         </div>
         <div class="checkbox">
           <label><input type="checkbox" name="remember"> Remember Me</label>
         </div>
 
-          <button type="login" class="btn btn-default">Log In</button>
+          <button type="button" class="btn btn-default">Log In</button>
   
         <div class="form-group">
           <span class="psw"><a href="forgot.html">Forgot password?</a></span>
@@ -60,8 +60,7 @@
         </div>
         
         <div class="alert alert-success">
-          <strong>Success!</strong> Log in correct!</a>.
-        </div>
+          <strong>Success!</strong> Log in correct!</div>
       </form>
     </div>
 
