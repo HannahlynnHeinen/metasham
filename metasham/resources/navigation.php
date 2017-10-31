@@ -15,7 +15,7 @@
             <li><a href="products.php">Products</a></li>
             <li><a href="deals_and_coupons.php">Deals and Coupons</a></li>
             <li><a href="support.php">Contact Us</a></li>
-            <li><a href="enterinfo.php">Enter Information</a></li>
+            <li><a href="enterInfo.php">Enter Information</a></li>
           </ul>
           <ul class="nav navbar-nav navbar-right">
             <li><a href="login.php"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
